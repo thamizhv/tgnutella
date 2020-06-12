@@ -2,9 +2,14 @@
 
  TGnutella is a minimalistic version of [Gnutella](https://en.wikipedia.org/wiki/Gnutella) [servent](https://en.wiktionary.org/wiki/servent). It provides a command line interface to connect with peers in the network, find and download files over the network.
 
- ### BASIC USAGE
-Download binary `tgnutella` and run below command:
+### BASIC USAGE
 
+1. Install [Go](https://golang.org/doc/install)
+2. go get github.com/thamizhv/tgnutella
+3. go install github.com/thamizhv/tgnutella
+
+
+### Run:
 tgnutella <servent_port>  
 
 Eg: `tgnutella 8100`
