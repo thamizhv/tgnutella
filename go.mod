@@ -1,4 +1,4 @@
-module tgnutella
+module github.com/thamizhv/tgnutella
 
 go 1.14
 
