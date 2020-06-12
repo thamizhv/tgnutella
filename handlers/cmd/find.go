@@ -44,7 +44,7 @@ func (f *findHandler) Handle(arg string) error {
 
 	helpers.FindChannel <- arg
 
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*10)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
 	defer cancel()
 
 	select {
@@ -55,7 +55,7 @@ func (f *findHandler) Handle(arg string) error {
 			f.findFilesList.Set(id, val)
 		}
 
-		fmt.Printf("file %s not present locally. Sent the query to network and waited for ten seconds to receive a hit. If found, message will be displayed.\n", arg)
+		fmt.Printf("file %s not present locally. Sent the query to network and waited for five seconds to receive a hit. If found, message will be displayed.\n", arg)
 	case c := <-helpers.FoundChannel:
 		f.findFilesList.Remove(id)
 		fmt.Printf("Found file %s with id:%s\n", arg, c)

@@ -40,7 +40,7 @@ const (
 
 	ConnectionResponse = "GNUTELLA OK"
 
-	PingInterval = time.Second * 10
+	PingInterval = time.Second * 5
 
-	DefaultServentTTL = 10
+	DefaultServentTTL = 5
 )
