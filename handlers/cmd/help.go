@@ -2,7 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"tgnutella/constants"
+
+	"github.com/thamizhv/tgnutella/constants"
 )
 
 type helpHandler struct{}

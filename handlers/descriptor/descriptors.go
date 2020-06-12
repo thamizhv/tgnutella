@@ -6,10 +6,11 @@ import (
 	"encoding/json"
 	"net"
 	"strings"
-	"tgnutella/cache"
-	"tgnutella/handlers/files"
-	"tgnutella/helpers"
-	"tgnutella/models"
+
+	"github.com/thamizhv/tgnutella/cache"
+	"github.com/thamizhv/tgnutella/handlers/files"
+	"github.com/thamizhv/tgnutella/helpers"
+	"github.com/thamizhv/tgnutella/models"
 )
 
 type DescriptorHandler interface {

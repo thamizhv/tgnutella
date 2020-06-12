@@ -4,11 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"tgnutella/cache"
-	"tgnutella/handlers/files"
-	"tgnutella/helpers"
-	"tgnutella/models"
 	"time"
+
+	"github.com/thamizhv/tgnutella/cache"
+	"github.com/thamizhv/tgnutella/handlers/files"
+	"github.com/thamizhv/tgnutella/helpers"
+	"github.com/thamizhv/tgnutella/models"
 )
 
 type findHandler struct {

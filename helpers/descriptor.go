@@ -2,8 +2,9 @@ package helpers
 
 import (
 	"fmt"
-	"tgnutella/constants"
-	"tgnutella/models"
+
+	"github.com/thamizhv/tgnutella/constants"
+	"github.com/thamizhv/tgnutella/models"
 )
 
 func GetPayloadDescriptor(descriptorType string) (models.DescriptorType, error) {

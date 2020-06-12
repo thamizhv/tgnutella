@@ -3,12 +3,13 @@ package servent
 import (
 	"fmt"
 	"net"
-	"tgnutella/cache"
-	"tgnutella/constants"
-	"tgnutella/handlers/cmd"
-	"tgnutella/handlers/descriptor"
-	"tgnutella/helpers"
 	"time"
+
+	"github.com/thamizhv/tgnutella/cache"
+	"github.com/thamizhv/tgnutella/constants"
+	"github.com/thamizhv/tgnutella/handlers/cmd"
+	"github.com/thamizhv/tgnutella/handlers/descriptor"
+	"github.com/thamizhv/tgnutella/helpers"
 )
 
 type Servent interface {

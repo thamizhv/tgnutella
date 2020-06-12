@@ -9,12 +9,13 @@ import (
 	"os/signal"
 	"strconv"
 	"strings"
-	"tgnutella/cache"
-	"tgnutella/constants"
-	"tgnutella/handlers/cmd"
-	"tgnutella/handlers/descriptor"
-	"tgnutella/handlers/files"
-	"tgnutella/servent"
+
+	"github.com/thamizhv/tgnutella/cache"
+	"github.com/thamizhv/tgnutella/constants"
+	"github.com/thamizhv/tgnutella/handlers/cmd"
+	"github.com/thamizhv/tgnutella/handlers/descriptor"
+	"github.com/thamizhv/tgnutella/handlers/files"
+	"github.com/thamizhv/tgnutella/servent"
 )
 
 func main() {

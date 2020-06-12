@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"net"
 	"strconv"
-	"tgnutella/cache"
-	"tgnutella/constants"
-	"tgnutella/models"
+
+	"github.com/thamizhv/tgnutella/cache"
+	"github.com/thamizhv/tgnutella/constants"
+	"github.com/thamizhv/tgnutella/models"
 )
 
 type infoHandler struct {

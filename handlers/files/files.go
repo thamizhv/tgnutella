@@ -3,8 +3,9 @@ package files
 import (
 	"fmt"
 	"io/ioutil"
-	"tgnutella/helpers"
-	"tgnutella/models"
+
+	"github.com/thamizhv/tgnutella/helpers"
+	"github.com/thamizhv/tgnutella/models"
 )
 
 type FileHandler interface {

@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"net"
 	"strconv"
-	"tgnutella/constants"
-	"tgnutella/helpers"
-	"tgnutella/models"
+
+	"github.com/thamizhv/tgnutella/constants"
+	"github.com/thamizhv/tgnutella/helpers"
+	"github.com/thamizhv/tgnutella/models"
 )
 
 type pongDescriptor struct {

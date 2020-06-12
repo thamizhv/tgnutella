@@ -5,7 +5,8 @@ import (
 	"io/ioutil"
 	"net"
 	"net/http"
-	"tgnutella/constants"
+
+	"github.com/thamizhv/tgnutella/constants"
 )
 
 func SendAndReceiveData(address string, data []byte, receive bool) ([]byte, error) {
